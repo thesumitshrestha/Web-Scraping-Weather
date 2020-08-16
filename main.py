@@ -22,4 +22,4 @@ weather = pd.DataFrame(
 
 print(weather)
 
-weather.to_csv('weather.csv')
+weather.to_csv('weather.csv', encoding='utf-8')
